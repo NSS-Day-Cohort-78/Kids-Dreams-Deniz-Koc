@@ -1,4 +1,5 @@
 import { getChildren } from "./database.js"
+import { getCelebrities } from "./database.js"
 
 const kids = getChildren()
 const celebrities = getCelebrities()
